@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="bg-zinc-800 text-zinc-400 mx-8">
         <Navbar />
         {children}
       </body>

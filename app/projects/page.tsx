@@ -1,3 +1,7 @@
 export default function Projects() {
-  return <h1>This is the projects page!</h1>;
+  return (
+    <h1 className="flex justify-center">
+      This is where I will showcase my projects!
+    </h1>
+  );
 }

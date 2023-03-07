@@ -1,3 +1,7 @@
 export default function About() {
-  return <h1>This is the About Page!</h1>;
+  return (
+    <h1 className="flex justify-center">
+      This is where you can learn more about me!
+    </h1>
+  );
 }
